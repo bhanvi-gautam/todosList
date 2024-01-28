@@ -53,7 +53,7 @@ const TodoWrapper = () => {
             key={index}
             toggleComplete={toggleComplete}
             deleteTodo={deleteTodo}
-            editTodo={EditTodoForm}
+            editTodo={editTodo}
           />
         )
       )}
