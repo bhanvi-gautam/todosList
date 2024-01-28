@@ -1,5 +1,10 @@
+import TodoWrapper from "./components/TodoWrapper";
 function App() {
-  return <></>;
+  return (
+    <>
+      <TodoWrapper />
+    </>
+  );
 }
 
 export default App;
