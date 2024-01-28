@@ -16,6 +16,7 @@ const TodoForm = ({ addTodo }) => {
       <input
         type="text"
         placeholder="Enter your tasks"
+        value={value}
         onChange={handleChange}
       />
       <button>Submit</button>
